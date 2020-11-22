@@ -1,0 +1,59 @@
+.rcorners2 {
+    border-radius: 25px;
+    text-align: center;
+    text-wrap: normal;
+    border: 4px double black;
+    padding: 20px;
+    margin-right: 5px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 4px 0 #a5a3a3; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+    box-shadow: 0 0 4px 0 #a5a3a3;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.rcorners2_product{
+    border-radius: 25px;
+    text-align: center;
+    text-wrap: normal;
+    border: 4px double black;
+    padding: 20px;
+    margin-right: 5px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 4px 0 #a5a3a3; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+    box-shadow: 0 0 4px 0 #a5a3a3;
+}
+.sales_container{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    overflow-x: visible;
+    overflow-y: hidden;
+}
+body{
+    overflow:scroll;
+}
+@media screen and (max-width: 1280px){
+    .sales_container{
+        display: inline-block;
+        margin-top: 10px;
+        justify-content: center;
+        overflow-x: visible;
+        overflow-y: hidden;
+    }
+}
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+}
+.grid_el {
+    padding: .5em;
+    text-align: center;
+}
