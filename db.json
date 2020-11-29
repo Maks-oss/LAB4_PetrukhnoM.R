@@ -1,0 +1,103 @@
+{
+"products": [{
+    "url": "pizza_margarita",
+    "id":0,
+    "productName": "Пицца Маргарита",
+    "Ingredients": ["Моцарелла","Соус Domino's"],
+    "price": 92.99,
+    "images": ["https://media.dominos.ua/__sized__/menu/product_osg_image_category/2019/10/04/%D0%9C%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0_300dpi-min-thumbnail-960x960-70.jpg", 
+               "https://media.dominos.ua/__sized__/menu/product_osg_image/2019/10/04/%D0%BC%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0_2_%D0%B1%D0%B5%D0%B7_%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B2-min-thumbnail-2300x2300-70.jpg"],
+    "categoryId": 1
+  },{
+    "url": "pizza_texas",
+     "id": 1,
+    "productName": "Пицца Техас",
+    "Ingredients": ["Кукуруза","Лук","Грибы","Колбаски Баварские","Моцарелла","Соус Барбекью"],
+    "price": 92.99,
+    "images": ["https://media.dominos.ua/__sized__/menu/product_osg_image_category/2019/10/03/%D0%A2%D0%B5%D1%85%D0%B0%D1%81_300dpi-min-thumbnail-960x960-70.jpg", 
+               "https://media.dominos.ua/__sized__/menu/product_osg_image/2019/10/03/%D0%A2%D0%B5%D1%85%D0%B0%D1%81-min-thumbnail-2300x2300-70.jpg"],
+    "categoryId": 1
+  },{
+    "url": "pizza_gavaiska",
+     "id": 2,
+    "productName": "Пицца Гавайская",
+    "Ingredients": ["Курица", "Ананас", "Моцарелла", "Соус Domino's"],
+    "price": 124.99,
+    "images": ["https://media.dominos.ua/__sized__/menu/product_osg_image_category/2019/10/04/Гавайська_300dpi-min-thumbnail-960x960-70.jpg", 
+               "https://media.dominos.ua/__sized__/menu/product_osg_image/2019/10/04/гавайская-min-thumbnail-2300x2300-70.jpg"],
+    "categoryId": 2
+  },{
+    "url": "pizza_tony_pepperoni",
+     "id": 3,
+    "productName": "Пицца Тони Пепперони",
+    "Ingredients": ["Моцарелла","Пепперони","Соус Domino's"],
+    "price": 124.99,
+    "images": ["https://media.dominos.ua/__sized__/menu/product_osg_image_category/2019/10/04/Пепперони_300dpi-min-thumbnail-960x960-70.jpg", 
+               "https://media.dominos.ua/__sized__/menu/product_osg_image/2019/10/04/Тони_Пепперони-min-thumbnail-2300x2300-70.jpg"],
+    "categoryId": 2
+  },{
+    "id":4,
+    "url": "pizza_bavarska",
+    "productName": "Пицца Баварская",
+    "Ingredients": ["Пармезан", "Колбаски баварские", "Моцарелла", "Соус Барбекю"],
+    "price": 152.99,
+    "images": ["https://media.dominos.ua/__sized__/menu/product_osg_image_category/2019/10/04/Баварская_72dpi-min-min-thumbnail-960x960-70.jpg", 
+               "https://media.dominos.ua/__sized__/menu/product_osg_image/2019/10/04/bavarskaya-min-min-thumbnail-2300x2300-70.jpg"],
+    "categoryId": 3 
+  },{
+     "id":5,
+    "url": "pizza_ovosch_feeria",
+    "productName": "Пицца Овощная Феерия",
+    "Ingredients": ["Оливки", "Лук", "Болгарский перец", "Грибы", "Моцарелла", "Помидоры", "Соус Domino's"],
+    "price": 152.99,
+    "images": ["https://media.dominos.ua/__sized__/menu/product_osg_image_category/2019/10/04/овочэва_фэерия_300dpi-min-thumbnail-960x960-70.jpg", 
+               "https://media.dominos.ua/__sized__/menu/product_osg_image/2019/10/03/папарацци-min-thumbnail-2300x2300-70.jpg"],
+    "categoryId": 3 
+  },{
+     "id":6,
+    "url": "pizza_mitza",
+    "productName": "Пицца MitZZa",
+    "Ingredients": ["Пармезан", "Бекон", "Ветчина", "Колбаски баварские", "Моцарелла", "Пепперони", "Соус Domino's"],
+    "price": 187.99,
+    "images": ["https://media.dominos.ua/__sized__/menu/product_osg_image_category/2019/10/04/Мицца_300dpi-min-thumbnail-960x960-70.jpg", 
+               "https://media.dominos.ua/__sized__/menu/product_osg_image/2019/10/04/мицца-min-thumbnail-2300x2300-70.jpg"],
+    "categoryId": 4 
+  },{
+      "id":7,
+    "url": "pizza_five_cheese",
+    "productName": "Пицца Пять Сыров",
+    "Ingredients": ["Фета", "Пармезан", "Бергадер Блю", "Моцарелла", "Соус Альфредо", "Чеддер"],
+    "price": 187.99,
+    "images": ["https://media.dominos.ua/__sized__/menu/product_osg_image_category/2019/10/04/Пять_сыров_300dpi-min-thumbnail-960x960-70.jpg", 
+               "https://media.dominos.ua/__sized__/menu/product_osg_image/2019/10/04/5_сыров-min-thumbnail-2300x2300-70.jpg"],
+    "categoryId": 4
+  },{
+      "id":8,
+    "url": "pizza_extravaganza",
+    "productName": "Пицца Экстраваганzza",
+    "Ingredients": ["Фрикадельки", "Оливки, Лук", "Болгарский перец", "Ветчина", "Грибы", "Моцарелла", "Пепперони", "Соус Domino's"],
+    "price": 187.99,
+    "images": ["https://media.dominos.ua/__sized__/menu/product_osg_image_category/2020/04/01/eXtravaganzza_slice1-min-thumbnail-960x960-70.jpg", 
+               "https://media.dominos.ua/__sized__/menu/product_osg_image/2020/04/01/Экстраваганза_ReEdit1-min-thumbnail-2300x2300-70.jpg"],
+    "categoryId": 4 
+  }],
+  "orders": [],
+  "sales": [{
+   "id":1,
+    "name":"Сумасшедший вторник!",
+    "description":"Каждый вторник Domino's проводит невероятную акцию Сумасшедший вторник - покупай одну среднюю или большую пиццу и получай вторую со скидкой 80%! В акции не участвуют маленькие пиццы. Согласно условиям акции, пицца со скидкой должна быть из меню без добавления ингредиентов. Акция действует на доставку, и для заказов, которые можно будет получить возле точки адресной доставки (у входа в пиццерию). Скидка предоставляется на меньший товар в чеке. Акция не суммируется с другими акционными предложениями. Категория пицц Лучшая цена является акционным предложением, которое не работает во вторник. Во вторник пиццы категории Лучшая цена переходят в категорию пицц Классические. С акцией вторника бонусы не списываются, только начисляются."
+    },{
+    "id":2,
+    "name":"WOWeekend в Domino's!",
+    "description":"Заказывай любую среднюю пиццу за 199 грн или большую пиццу всего за 239 грн! Акция действует каждую пятницу, субботу и воскресенье. Акция действует на пиццы из меню. Акция не действует на пиццы за собственном рецептом. Акция действует на пиццы всех категорий, кроме категорий Лучшая цена и Классические. Борты Филадельфия и Хот-дог к акционным пиццам добавляются по отдельной цене. Правила замены топпингов стандартные. Дополнительные топинги в акционные пиццы добавить невозможно. Акция действует на неограниченное количество пицц в чеке. Акция не суммируется с другими акционными предложениями. Условия программы лояльности Domino's club распространяются на акционное предложение."
+    },{
+    "id":3,
+    "name": "30% на каждую вторую пиццу!",
+    "description":"Заказывай каждую вторую пиццу со скидкой -30%! Акция распространяется на пиццы среднего и большого размера на любом типе теста. Акция действует на доставку, на заказы в пиццерии и с собой. Скидка предоставляется на самый дешевый товар в чеке. Акция не суммируется с другими акционными предложениями. Условия программы лояльности Domino`s Club распространяются на акционное предложение. К акционной пиццы есть возможность добавить борты Филадельфия и Хот-дог."
+    },{
+    "id":4,
+    "name": "30% на Сайды!",
+    "description": "Покупай пиццу и получай скидку -30% на Сайды теперь с доставкой! Каждый день получай 30% скидки на порцию крылышек, стрипсов, картошки, хлебцов или пармезан байтс при покупке любой пиццы! Скидка возможна при условии - одна пицца - одна порция сайда. Акция действует на доставку и адресную доставку (заказ выдается около пиццерии). Акция не суммируется с другими акционными предложениями. Условия программы лояльности Domino`s Club распространяются на акционное предложение."
+    }]
+   
+}
