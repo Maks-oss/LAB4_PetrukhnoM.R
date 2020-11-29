@@ -1,34 +1,31 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <meta charset="UTF-8">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="index.css">
     <title>Pizzeria</title>
 </head>
-<body>
+<!---->
+<body id="app">
 <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#" >
-        <img src="data:image/png;base64,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" width="30" height="30" alt=""
-             style="background-color: transparent">
+    <a class="navbar-brand" >
+        <h3 style="color: white">Domino's Pizza</h3>
     </a>
     <form class="form-inline">
-        <button class="btn btn-outline" type="button" style="color: white">Акции</button>
-        <button class="btn btn-outline" type="button" style="color: white">Пицца</button>
-        <button class="btn btn-outline" type="button" style="color: white">Напитки</button>
-        <button class="btn btn-outline" type="button" style="color: white">Сайды</button>
-        <button class="btn btn-outline" type="button" style="color: white">Десерты</button>
+        <a href="#/"  class="btn btn-outline" type="button" style="color: white">Главная</a>
+        <a href="#/catalog" class="btn btn-outline" type="button" id="catalog" style="color: white">Каталог</a>
+        <button class="btn btn-outline" type="button" style="color: white" id="order">Заказ</button>
     </form>
     <form class="form-inline">
         <div class="input-group">
             <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">
-                    <img src="data:image/png;base64,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"
-                         alt="corzina" height="25" width="30" style="background-color: transparent">
-                    0
+                <span class="input-group-text" id="basic">
+                    0 0.00
                 </span>
             </div>
-            <button class="border">Оформить заказ</button>
+            <button class="btn btn-outline" id="perform" style="color: white">Оформить заказ</button>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,113 +33,147 @@
     </form>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Контакты</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">О нас</a>
             </li>
         </ul>
     </div>
 </nav>
-<div class="sales_container">
-    <div class="rcorners2">
-        <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/11/13/weekend-pizza_news-crop-c0-5__0-5-2300x1352-70.jpg" alt="" height="50%" width="100%">
-        <h5>Пицца выходного дня: -50% на пиццу!</h5>
-        <hr>
-        Покупай на выходных каждую вторую большую и среднюю пиццу со скидкой -50%!
-    </div>
-    <div class="rcorners2">
-        <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/10/29/unicorn-vtornik--80_news-crop-c0-5__0-5-2300x1352-70.jpg"
-             height="50%" width="100%" alt="">
-        <h5>Сумасшедший вторник!</h5>
-        <hr>
-        Каждый вторник Domino's проводит невероятную акцию «Сумасшедший вторник» - покупай одну среднюю или большую пиццу и получай вторую со скидкой 80%!
-    </div>
-    <div class="rcorners2">
-        <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/08/12/woweekend_news-crop-c0-5__0-5-2300x1352-70.jpg"
-             height="50%" width="100%" alt="">
-        <h5>WOWeekend в Domino's!</h5>
-        <hr>
-        Заказывай любую среднюю пиццу за 199 грн или большую пиццу всего за 239 грн! Акция действует каждую пятницу, субботу и воскресенье.
-    </div>
-    <div class="rcorners2">
-        <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/10/29/-30_news-crop-c0-5__0-5-2300x1352-70.jpg"
-             height="50%" width="100%" alt="">
-        <h5>30% на каждую вторую пиццу</h5>
-        <hr>
-        Заказывай каждую вторую пиццу со скидкой -30%! Акция распространяется на пиццы среднего и большого размера на любом типе теста.
-    </div>
-    <div class="rcorners2">
-        <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/10/29/-30-wings_news-crop-c0-5__0-5-2300x1352-70.jpg"
-             height="50%" width="100%" alt="">
-        <h5>30% на Сайды!</h5>
-        <hr>
-        Покупай пиццу и получай скидку -30% на Сайды теперь с доставкой! Каждый день получай 30% скидки на порцию крылышек, стрипсов, картошки, хлебцов или пармезан байтс при покупке любой пиццы!
-    </div>
-    <div class="rcorners2">
-        <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/09/23/-20_new-crop-c0-5__0-5-2300x1352-70.jpg"
-             height="50%" width="100%" alt="">
-        <h5>Большая пицца за 129.99 грн!</h5>
-        <hr>
-        Новое выгодное предложение! Получай 20% скидки на свой заказ в пиццерии! Акция распространяется на все позиции с меню, кроме алкогольных напитков и безалкогольного пива.
-    </div>
+    <div id="temp">
+<!--    <div class="slideshow-container" >-->
+<!--    -->
+<!--        <div class="mySlides fade" >-->
+<!--            <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/11/13/weekend-pizza_news-crop-c0-5__0-5-960x565-70.jpg"  style="width:100%" alt="">-->
+<!--        </div>-->
+<!--    -->
+<!--        <div class="mySlides fade">-->
+<!--            <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/10/29/unicorn-vtornik&#45;&#45;80_news-crop-c0-5__0-5-960x565-70.jpg" style="width:100%" alt="">-->
+<!--        </div>-->
+<!--    -->
+<!--        <div class="mySlides fade">-->
+<!--            <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/08/12/woweekend_news-crop-c0-5__0-5-960x565-70.jpg" style="width:100%" alt="">-->
+<!--        </div>-->
+<!--        <div class="mySlides fade">-->
+<!--            <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/10/29/-30_news-crop-c0-5__0-5-960x565-70.jpg" style="width:100%" alt>-->
+<!--        </div>-->
+<!--        <div class="mySlides fade">-->
+<!--            <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/10/29/-30-wings_news-crop-c0-5__0-5-960x565-70.jpg" style="width:100%" alt>-->
+<!--        </div>-->
+<!--        <div class="mySlides fade">-->
+<!--            <img src="https://media.dominos.ua/__sized__/promotions/promotions_image/2020/09/11/129_news-crop-c0-5__0-5-960x565-70.jpg" style="width:100%" alt>-->
+<!--        </div>-->
+<!--    -->
+<!--    </div>-->
+<!--    <br>-->
+<!--    <div style="text-align:center">-->
+<!--        <span class="dot"></span>-->
+<!--        <span class="dot"></span>-->
+<!--        <span class="dot"></span>-->
+<!--        <span class="dot"></span>-->
+<!--        <span class="dot"></span>-->
+<!--        <span class="dot"></span>-->
+<!--    </div>-->
+<!--        -->
+<!--    <header><h1 style="text-align: center">Хит недели</h1></header>-->
+<!--    <div class="rcorners2" style="margin-top: 10px" >-->
+<!--        <div style="display: flex;justify-content: center;margin-top: 10px" >-->
+<!--           <p class="font-weight-bold" style="margin-right: 10px">187.99грн</p>-->
+<!--            <button type="button" class="btn btn-outline-danger" id="pizza_mitza" >Купить</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="rcorners2" style="margin-top: 10px" >-->
+<!--        <div style="display: flex;justify-content: center;margin-top: 10px">-->
+<!--            <p class="font-weight-bold" style="margin-right: 10px">92.99грн</p>-->
+<!--            <button type="button" class="btn btn-outline-danger" id="pizza_margarita">Купить</button>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="rcorners2" style="margin-top: 10px">-->
+<!--        <div style="display: flex;justify-content: center;margin-top: 10px">-->
+<!--            <p class="font-weight-bold" style="margin-right: 10px">124.99грн</p>-->
+<!--            <button type="button" class="btn btn-outline-danger" id="pizza_gavaiska">Купить</button>-->
+<!--        </div>-->
+<!--    </div>-->
 </div>
-<header><h1 style="text-align: center">Хит недели</h1></header>
-<div class="rcorners2_product" style="margin-top: 10px">
-    <img src="https://media.dominos.ua/__sized__/menu/product_osg_image/2019/10/04/мицца-min-thumbnail-2300x2300-70.jpg"
-         height="50%" width=50% alt="" >
-    <h4>Пицца МитZZа</h4>
-    <h5>Ингредиенты</h5>
-    Пармезан, Бекон, Ветчина, Колбаски баварские, Моцарелла, Пепперони, Соус Domino's
-    <div style="display: flex;justify-content: center;margin-top: 10px">
-        <p class="font-weight-bold" style="margin-right: 10px">187.99грн</p>
-        <button type="button" class="btn btn-outline-danger">Купить</button>
+<!--<hr>-->
+<footer id="sticky-footer" style="margin-top: 5px"  class="py-4 bg-dark text-white-50">
+
+    <div class="container-fluid text-center text-md-left">
+
+        <div class="row">
+
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <h5 class="text-uppercase">Коротко о dominos</h5>
+                <p>Лучшая пиццерия в Украине.</p>
+
+            </div>
+
+            <hr class="clearfix w-100 d-md-none pb-1">
+
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <h5 class="text-uppercase">DOMINO'S PIZZA</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a >Меню
+                            </a>
+                    </li>
+                    <li>
+                        <a >Пиццерии</a>
+                    </li>
+                    <li>
+                        <a >Франчайзинг</a>
+                    </li>
+                    <li>
+                        <a > Информация по содержанию аллергенов и пищевая ценность</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <h5 class="text-uppercase">КОНТАКТЫ</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a >info@dominos.ua</a>
+                    </li>
+                </ul>
+                <ul class="list-unstyled">
+                    <li>
+                        <a >044 222 11 11</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
     </div>
-</div>
-<div class="rcorners2_product" style="margin-top: 10px">
-    <img src="https://media.dominos.ua/__sized__/menu/product_osg_image_category/2019/10/04/Маргарита_300dpi-min-thumbnail-960x960-70.jpg"
-         height="50%" width=50% alt="" >
-    <h4>Пицца Маргарита</h4>
-    <h5>Ингредиенты</h5>
-    Моцарелла, Соус Domino's
-    <div style="display: flex;justify-content: center;margin-top: 10px">
-        <p class="font-weight-bold" style="margin-right: 10px">92.99грн</p>
-        <button type="button" class="btn btn-outline-danger">Купить</button>
-    </div>
-</div>
-<div class="rcorners2_product" style="margin-top: 10px">
-    <img src="https://media.dominos.ua/__sized__/menu/product_osg_image_category/2019/10/04/Гавайська_300dpi-min-thumbnail-960x960-70.jpg"
-         height="50%" width=50% alt="" >
-    <h4>Пицца Гавайская</h4>
-    <h5>Ингредиенты</h5>
-    Курица, Ананас, Моцарелла, Соус Domino's
-    <div style="display: flex;justify-content: center;margin-top: 10px">
-        <p class="font-weight-bold" style="margin-right: 10px">124.99грн</p>
-        <button type="button" class="btn btn-outline-danger">Купить</button>
-    </div>
-</div>
-<footer>
     <hr>
-    <div class="grid">
-        <div class="grid_el"><h3>DOMINO'S PIZZA </h3><br><hr>
-            Меню <br><br>
-            Пиццерии <br><br>
-            Франчайзинг <br><br>
-            Информация по содержанию аллергенов и пищевая ценность</div>
-        <div class="grid_el"><h3>СЕРВИСЫ</h3><br><hr>
-            Pizza Tracker</div>
-        <div class="grid_el"><h3>КОНТАКТЫ</h3><br><hr>
-            info@dominos.ua<br><br>
-            044 222 11 11</div>
+    <div class="container text-center">
+        <small>Copyright &copy; Domino's Pizza</small>
     </div>
 </footer>
+<!--bootstrap-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!--bootstrap-->
+<script src="js/Client.js" type="module"></script>
+<script src="js/MainPageFunctions.js" type="module"></script>
+<script src="js/Routing.js" type="module"></script>
+<script src="js/Slider.js" type="module"></script>
+<script src="js/SalesPage.js" type="module"></script>
+<script src="js/Form.js" type="module"></script>
+
 </body>
 
 </html>
